@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/badge/nginx-1.15-green.svg)]()
 [![npm](https://img.shields.io/badge/PHP-7.2-orange.svg)]()
 [![npm](https://img.shields.io/badge/redis-latest-red.svg)]()
+[![npm](https://img.shields.io/badge/mysql-5.7-yellowgreen.svg)]()
 
 Let us use docker to quickly build a PHP development environment!
 
@@ -75,3 +76,8 @@ composer install
 - DIR_WWW WEB project directory.
 - DIR_REDIS_DATA Redis data storage directory.
 - DIR_MYSQL_DATA Mysql data storage directory.
+
+## Todo
+
+- [X] PHP 7.2 build.
+- [ ] Lavarel build.
