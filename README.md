@@ -4,6 +4,7 @@
 [![npm](https://img.shields.io/badge/PHP-7.2-orange.svg)]()
 [![npm](https://img.shields.io/badge/redis-latest-red.svg)]()
 [![npm](https://img.shields.io/badge/mysql-5.7-yellowgreen.svg)]()
+[![npm](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 Let us use docker to quickly build a PHP development environment!
 
