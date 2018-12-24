@@ -39,7 +39,19 @@ After doing this, start pulling the mirror image to make the container.👇
 docker-compose up -d
 ```
 
+If you're developing locally:
+
+```
+docker-compose -f docker-compose.local.yml up -d
+```
+
 ### Stop
+
+```
+docker-compose stop
+```
+
+### Remove
 
 ```
 docker-compose down
