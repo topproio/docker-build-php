@@ -57,13 +57,36 @@ docker-compose stop
 docker-compose down
 ```
 
-### Composer
+### Start a Lavarel
 
 ```
 docker exec -it ct-phpfpm bash
 
 cd <php_directory_in_phpfpm>
 composer install
+```
+
+### Get into the local container
+
+```
+docker exec it <container-name> bash
+```
+
+### Get into the Redis
+
+```
+// with redis-cli
+redis-cli -h 127.0.0.1 -p 6379 -a <password>
+```
+
+### Get into the MySQL
+
+```
+// with mysqlsh
+mysqlsh -uroot -p<password> -h 127.0.0.1 --mysql
+
+// with mysql
+mysql -uroot -p<password> -h 127.0.0.1 --mysql
 ```
 
 ## Directory and File
